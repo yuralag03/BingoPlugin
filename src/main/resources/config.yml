@@ -1,0 +1,701 @@
+# Bingo Event Configuration
+
+# Maximum players in the event
+max-players: 15
+
+# Round duration in minutes
+round-duration-minutes: 15
+
+# Countdown duration in seconds before start
+countdown-seconds: 15
+
+# Warning interval for out-of-zone players (in seconds)
+zone-warning-interval: 1
+
+# Grace period before teleporting player back to zone (in seconds)
+zone-grace-period: 20
+
+# Prize places count
+prize-places: 3
+
+# Card templates pool (10 cards, each with 16 goals: 6 tier1 + 6 tier2 + 4 tier3)
+# Tiers: 1 = easy, 2 = medium, 3 = hard
+card-templates:
+  - id: 1
+    goals:
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 16
+        tier: 1
+      - material: CRAFTING_TABLE
+        amount: 1
+        tier: 1
+      - material: WOODEN_PICKAXE
+        amount: 1
+        tier: 1
+      - material: WOODEN_AXE
+        amount: 1
+        tier: 1
+      - material: TORCH
+        amount: 8
+        tier: 1
+      - material: STONE_PICKAXE
+        amount: 1
+        tier: 2
+      - material: STONE_AXE
+        amount: 1
+        tier: 2
+      - material: FURNACE
+        amount: 1
+        tier: 2
+      - material: BUCKET
+        amount: 1
+        tier: 2
+      - material: SHIELD
+        amount: 1
+        tier: 2
+      - material: IRON_PICKAXE
+        amount: 1
+        tier: 2
+      - material: IRON_SWORD
+        amount: 1
+        tier: 3
+      - material: DIAMOND_PICKAXE
+        amount: 1
+        tier: 3
+      - material: DIAMOND_SWORD
+        amount: 1
+        tier: 3
+      - material: ENCHANTING_TABLE
+        amount: 1
+        tier: 3
+  - id: 2
+    goals:
+      - material: COBBLESTONE
+        amount: 32
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 16
+        tier: 1
+      - material: WOODEN_HOE
+        amount: 1
+        tier: 1
+      - material: WOODEN_SHOVEL
+        amount: 1
+        tier: 1
+      - material: LADDER
+        amount: 8
+        tier: 1
+      - material: STONE_HOE
+        amount: 1
+        tier: 2
+      - material: STONE_SHOVEL
+        amount: 1
+        tier: 2
+      - material: CHEST
+        amount: 2
+        tier: 2
+      - material: BED
+        amount: 1
+        tier: 2
+      - material: COMPASS
+        amount: 1
+        tier: 2
+      - material: CLOCK
+        amount: 1
+        tier: 2
+      - material: IRON_HELMET
+        amount: 1
+        tier: 3
+      - material: IRON_CHESTPLATE
+        amount: 1
+        tier: 3
+      - material: IRON_LEGGINGS
+        amount: 1
+        tier: 3
+      - material: IRON_BOOTS
+        amount: 1
+        tier: 3
+  - id: 3
+    goals:
+      - material: DIRT
+        amount: 32
+        tier: 1
+      - material: COBBLESTONE
+        amount: 16
+        tier: 1
+      - material: OAK_LOG
+        amount: 8
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: LEAVES
+        amount: 16
+        tier: 1
+      - material: STONE_SWORD
+        amount: 1
+        tier: 2
+      - material: BOW
+        amount: 1
+        tier: 2
+      - material: ARROW
+        amount: 16
+        tier: 2
+      - material: LEATHER_HELMET
+        amount: 1
+        tier: 2
+      - material: LEATHER_CHESTPLATE
+        amount: 1
+        tier: 2
+      - material: LEATHER_BOOTS
+        amount: 1
+        tier: 2
+      - material: GOLDEN_APPLE
+        amount: 4
+        tier: 3
+      - material: ENDER_PEARL
+        amount: 4
+        tier: 3
+      - material: BLAZE_ROD
+        amount: 4
+        tier: 3
+      - material: GHAST_TEAR
+        amount: 2
+        tier: 3
+  - id: 4
+    goals:
+      - material: SAND
+        amount: 32
+        tier: 1
+      - material: GLASS
+        amount: 8
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 16
+        tier: 1
+      - material: COAL
+        amount: 8
+        tier: 1
+      - material: STRING
+        amount: 8
+        tier: 1
+      - material: FISHING_ROD
+        amount: 1
+        tier: 2
+      - material: NOTE_BLOCK
+        amount: 4
+        tier: 2
+      - material: PISTON
+        amount: 2
+        tier: 2
+      - material: REDSTONE_TORCH
+        amount: 8
+        tier: 2
+      - material: DISPENSER
+        amount: 1
+        tier: 2
+      - material: DROPPER
+        amount: 1
+        tier: 2
+      - material: TNT
+        amount: 4
+        tier: 3
+      - material: MINECART
+        amount: 2
+        tier: 3
+      - material: RAIL
+        amount: 16
+        tier: 3
+      - material: POWERED_RAIL
+        amount: 8
+        tier: 3
+  - id: 5
+    goals:
+      - material: GRASS_BLOCK
+        amount: 32
+        tier: 1
+      - material: WHEAT_SEEDS
+        amount: 16
+        tier: 1
+      - material: WHEAT
+        amount: 16
+        tier: 1
+      - material: BREAD
+        amount: 8
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: WOODEN_HOE
+        amount: 1
+        tier: 2
+      - material: STONE_HOE
+        amount: 1
+        tier: 2
+      - material: COMPOSTER
+        amount: 1
+        tier: 2
+      - material: BARREL
+        amount: 1
+        tier: 2
+      - material: CAKE
+        amount: 1
+        tier: 2
+      - material: COOKIE
+        amount: 8
+        tier: 2
+      - material: GOLDEN_CARROT
+        amount: 8
+        tier: 3
+      - material: PUMPKIN_PIE
+        amount: 4
+        tier: 3
+      - material: HAY_BLOCK
+        amount: 4
+        tier: 3
+      - material: BEACON
+        amount: 1
+        tier: 3
+  - id: 6
+    goals:
+      - material: CLAY_BALL
+        amount: 16
+        tier: 1
+      - material: BRICK
+        amount: 16
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: COAL
+        amount: 8
+        tier: 1
+      - material: IRON_INGOT
+        amount: 4
+        tier: 1
+      - material: BRICK_STAIRS
+        amount: 8
+        tier: 2
+      - material: BRICK_SLAB
+        amount: 8
+        tier: 2
+      - material: FLOWER_POT
+        amount: 4
+        tier: 2
+      - material: HOPPER
+        amount: 2
+        tier: 2
+      - material: ANVIL
+        amount: 1
+        tier: 2
+      - material: CHAINMAIL_HELMET
+        amount: 1
+        tier: 2
+      - material: CHAIN
+        amount: 8
+        tier: 3
+      - material: LANTERN
+        amount: 4
+        tier: 3
+      - material: SOUL_LANTERN
+        amount: 4
+        tier: 3
+      - material: NETHERITE_INGOT
+        amount: 1
+        tier: 3
+  - id: 7
+    goals:
+      - material: SNOWBALL
+        amount: 16
+        tier: 1
+      - material: ICE
+        amount: 8
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: LEATHER
+        amount: 8
+        tier: 1
+      - material: FEATHER
+        amount: 8
+        tier: 1
+      - material: BOW
+        amount: 1
+        tier: 2
+      - material: ARROW
+        amount: 16
+        tier: 2
+      - material: CROSSBOW
+        amount: 1
+        tier: 2
+      - material: SPECTRAL_ARROW
+        amount: 8
+        tier: 2
+      - material: TARGET
+        amount: 1
+        tier: 2
+      - material: SHIELD
+        amount: 1
+        tier: 2
+      - material: ELYTRA
+        amount: 1
+        tier: 3
+      - material: FIREWORK_ROCKET
+        amount: 8
+        tier: 3
+      - material: TOTEM_OF_UNDYING
+        amount: 1
+        tier: 3
+      - material: TRIDENT
+        amount: 1
+        tier: 3
+  - id: 8
+    goals:
+      - material: BOOKSHELF
+        amount: 8
+        tier: 1
+      - material: BOOK
+        amount: 8
+        tier: 1
+      - material: PAPER
+        amount: 16
+        tier: 1
+      - material: SUGAR_CANE
+        amount: 16
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: WRITABLE_BOOK
+        amount: 1
+        tier: 2
+      - material: CARTOGRAPHY_TABLE
+        amount: 1
+        tier: 2
+      - material: FLETCHING_TABLE
+        amount: 1
+        tier: 2
+      - material: SMITHING_TABLE
+        amount: 1
+        tier: 2
+      - material: LOOM
+        amount: 1
+        tier: 2
+      - material: GRINDSTONE
+        amount: 1
+        tier: 2
+      - material: NAME_TAG
+        amount: 4
+        tier: 3
+      - material: MAP
+        amount: 1
+        tier: 3
+      - material: ITEM_FRAME
+        amount: 4
+        tier: 3
+      - material: GLOW_ITEM_FRAME
+        amount: 4
+        tier: 3
+  - id: 9
+    goals:
+      - material: OBSIDIAN
+        amount: 8
+        tier: 1
+      - material: DIAMOND
+        amount: 2
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: FLINT_AND_STEEL
+        amount: 1
+        tier: 1
+      - material: WATER_BUCKET
+        amount: 1
+        tier: 1
+      - material: DIAMOND_HELMET
+        amount: 1
+        tier: 2
+      - material: DIAMOND_BOOTS
+        amount: 1
+        tier: 2
+      - material: OBSERVER
+        amount: 2
+        tier: 2
+      - material: JUKEBOX
+        amount: 1
+        tier: 2
+      - material: MUSIC_DISC_13
+        amount: 1
+        tier: 2
+      - material: MUSIC_DISC_CAT
+        amount: 1
+        tier: 2
+      - material: NETHER_STAR
+        amount: 1
+        tier: 3
+      - material: DRAGON_HEAD
+        amount: 1
+        tier: 3
+      - material: ELYTRA
+        amount: 1
+        tier: 3
+      - material: SHULKER_BOX
+        amount: 1
+        tier: 3
+  - id: 10
+    goals:
+      - material: NETHERRACK
+        amount: 32
+        tier: 1
+      - material: SOUL_SAND
+        amount: 16
+        tier: 1
+      - material: OAK_PLANKS
+        amount: 16
+        tier: 1
+      - material: STICK
+        amount: 8
+        tier: 1
+      - material: GOLD_INGOT
+        amount: 4
+        tier: 1
+      - material: QUARTZ
+        amount: 8
+        tier: 1
+      - material: GOLDEN_HELMET
+        amount: 1
+        tier: 2
+      - material: GOLDEN_BOOTS
+        amount: 1
+        tier: 2
+      - material: QUARTZ_STAIRS
+        amount: 8
+        tier: 2
+      - material: QUARTZ_SLAB
+        amount: 8
+        tier: 2
+      - material: QUARTZ_PILLAR
+        amount: 8
+        tier: 2
+      - material: CHISELED_QUARTZ_BLOCK
+        amount: 4
+        tier: 2
+      - material: GOLD_BLOCK
+        amount: 4
+        tier: 3
+      - material: GILDED_BLACKSTONE
+        amount: 8
+        tier: 3
+      - material: ANCIENT_DEBRIS
+        amount: 2
+        tier: 3
+      - material: NETHERITE_SCRAP
+        amount: 4
+        tier: 3
+
+# Lobby configuration
+lobby:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+# Zone configurations (cubes for players)
+# Format: zones.zone{id}.{world|minX|minY|minZ|maxX|maxY|maxZ|spawnX|spawnY|spawnZ}
+zones:
+  zone1:
+    world: world_bingo
+    minX: -100
+    minY: 60
+    minZ: -100
+    maxX: -80
+    maxY: 80
+    maxZ: -80
+    spawnX: -90.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone2:
+    world: world_bingo
+    minX: -80
+    minY: 60
+    minZ: -100
+    maxX: -60
+    maxY: 80
+    maxZ: -80
+    spawnX: -70.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone3:
+    world: world_bingo
+    minX: -60
+    minY: 60
+    minZ: -100
+    maxX: -40
+    maxY: 80
+    maxZ: -80
+    spawnX: -50.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone4:
+    world: world_bingo
+    minX: -40
+    minY: 60
+    minZ: -100
+    maxX: -20
+    maxY: 80
+    maxZ: -80
+    spawnX: -30.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone5:
+    world: world_bingo
+    minX: -20
+    minY: 60
+    minZ: -100
+    maxX: 0
+    maxY: 80
+    maxZ: -80
+    spawnX: -10.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone6:
+    world: world_bingo
+    minX: 0
+    minY: 60
+    minZ: -100
+    maxX: 20
+    maxY: 80
+    maxZ: -80
+    spawnX: 10.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone7:
+    world: world_bingo
+    minX: 20
+    minY: 60
+    minZ: -100
+    maxX: 40
+    maxY: 80
+    maxZ: -80
+    spawnX: 30.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone8:
+    world: world_bingo
+    minX: 40
+    minY: 60
+    minZ: -100
+    maxX: 60
+    maxY: 80
+    maxZ: -80
+    spawnX: 50.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone9:
+    world: world_bingo
+    minX: 60
+    minY: 60
+    minZ: -100
+    maxX: 80
+    maxY: 80
+    maxZ: -80
+    spawnX: 70.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone10:
+    world: world_bingo
+    minX: 80
+    minY: 60
+    minZ: -100
+    maxX: 100
+    maxY: 80
+    maxZ: -80
+    spawnX: 90.5
+    spawnY: 64.0
+    spawnZ: -90.5
+  zone11:
+    world: world_bingo
+    minX: -100
+    minY: 60
+    minZ: -80
+    maxX: -80
+    maxY: 80
+    maxZ: -60
+    spawnX: -90.5
+    spawnY: 64.0
+    spawnZ: -70.5
+  zone12:
+    world: world_bingo
+    minX: -80
+    minY: 60
+    minZ: -80
+    maxX: -60
+    maxY: 80
+    maxZ: -60
+    spawnX: -70.5
+    spawnY: 64.0
+    spawnZ: -70.5
+  zone13:
+    world: world_bingo
+    minX: -60
+    minY: 60
+    minZ: -80
+    maxX: -40
+    maxY: 80
+    maxZ: -60
+    spawnX: -50.5
+    spawnY: 64.0
+    spawnZ: -70.5
+  zone14:
+    world: world_bingo
+    minX: -40
+    minY: 60
+    minZ: -80
+    maxX: -20
+    maxY: 80
+    maxZ: -60
+    spawnX: -30.5
+    spawnY: 64.0
+    spawnZ: -70.5
+  zone15:
+    world: world_bingo
+    minX: -20
+    minY: 60
+    minZ: -80
+    maxX: 0
+    maxY: 80
+    maxZ: -60
+    spawnX: -10.5
+    spawnY: 64.0
+    spawnZ: -70.5
