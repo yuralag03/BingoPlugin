@@ -1,0 +1,17 @@
+name: BingoEvent
+version: 0.1.0
+main: ru.vgtu.bingo.BingoPlugin
+api-version: '1.21'
+softdepend: [WorldEdit]
+
+commands:
+  bingo:
+    description: Main bingo command
+    usage: /<command> [join|leave|card|status|admin]
+    permission: bingo.use
+
+permissions:
+  bingo.use:
+    default: true
+  bingo.admin:
+    default: op
